@@ -81,7 +81,7 @@ struct Biblioteca{
                     indiceMaior = i;
                 }
             }
-            printf("ID Livro: %d\n", indiceMaior);
+            printf("ID Livro: %d\n", (indiceMaior+1));
             printf("Titulo do livro: %s\n", livro[indiceMaior].titulo);
             printf("Nome do autor: %s\n", livro[indiceMaior].autor);
             printf("Numero de paginas: %d\n", livro[indiceMaior].numPaginas);
